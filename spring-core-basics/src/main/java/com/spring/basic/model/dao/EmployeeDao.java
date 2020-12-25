@@ -1,0 +1,9 @@
+package com.spring.basic.model.dao;
+
+import java.util.List;
+
+public interface EmployeeDao {
+	
+	List<String> getNames();
+	
+}
